@@ -28,7 +28,22 @@ This project implements a notification service that:
 
 ## Installation
 
-1. Clone the repository: https://github.com/RafaelGasparoto/chat-notification
-2. In the terminal, type: firebase init
-3. Configure the Firebase project that will be used
-4. In the functions folder, deploy the function with: firebase deploy --only functions
+Follow these steps to set up and deploy the Firebase function:
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/RafaelGasparoto/chat-notification.git
+```
+
+### 2. Initialize Firebase
+```bash
+firebase init
+```
+
+### 3. Configure Firebase Project
+Select the Firebase project during initialization.
+
+### 4. Deploy Functions
+```bash
+firebase deploy --only functions
+```
