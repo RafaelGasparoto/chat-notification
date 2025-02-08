@@ -22,7 +22,7 @@ This project implements a notification service that:
 
 ## Prerequisites
 
-- Node.js version 22
+- Node.js version 20.10
 - Firebase CLI
 - Firebase project with Firestore and Cloud Messaging enabled
 
